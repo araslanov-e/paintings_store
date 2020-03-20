@@ -1,0 +1,6 @@
+.ruby-*
+
+log/*
+!log/.gitkeep
+
+*.db
