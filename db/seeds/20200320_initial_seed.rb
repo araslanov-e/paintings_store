@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../../system/boot'
+require_relative '../../system/container'
 
 Sequel.seed(:development) do
   def run
