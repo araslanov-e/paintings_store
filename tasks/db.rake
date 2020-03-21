@@ -1,5 +1,3 @@
-require 'dotenv/tasks'
-
 namespace :db do
   desc 'Run migrations'
   task :migrate, [:version] => :dotenv do |t, args|

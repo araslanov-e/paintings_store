@@ -16,3 +16,11 @@ group :development, :test do
   gem 'sqlite3'
   gem 'sequel-seed'
 end
+
+group :test do
+  gem 'rspec'
+  gem 'rack-test'
+  gem 'pry', '~> 0.12'
+  gem 'pry-byebug', '3.3'
+  gem 'factory_bot'
+end

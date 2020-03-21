@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-require 'dotenv/load'
+require 'dotenv'
+Dotenv.load('.env', ".env.#{ENV.fetch("RACK_ENV", :development)}")
 
 require 'sinatra'
 require 'sinatra/namespace'
